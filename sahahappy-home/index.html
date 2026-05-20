@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SAHAHAPPY HOME - เฟอร์นิเจอร์ไม้แท้ และเตียงสปาคุณภาพสูง ผลิตในประเทศไทย" />
+    <title>SAHAHAPPY HOME | เฟอร์นิเจอร์ไม้แท้ และเตียงสปา</title>
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --navy: #2C4A63;
+            --navy-dark: #1F3A52;
+            --navy-deep: #15293D;
+            --green: #1F8A3D;
+            --red: #E63946;
+            --bg: #F7F9FB;
+            --soft-blue: #E8EEF3;
+            --card: #ffffff;
+            --ink: #1a1a1a;
+            --muted: #6b7280;
+            --gold: #C9A36B;
+            --radius: 14px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Top bar */
+        .topbar {
+            background: var(--navy-deep);
+            color: #fff;
+            font-size: 0.85rem;
+            padding: 8px 0;
+        }
+
+        .topbar-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .topbar a {
+            color: #fff;
+            text-decoration: none;
+            opacity: 0.9;
+        }
+
+        .topbar a:hover {
+            opacity: 1;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 100;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(44, 74, 99, 0.08);
+            box-shadow: 0 2px 10px rgba(44, 74, 99, 0.04);
+        }
+
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-wrap {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-wrap img {
+            height: 50px;
+            width: auto;
+        }
+
+        .logo-text {
+            font-size: 1.05rem;
+            font-weight: 800;
+            letter-spacing: 0.3px;
+            color: var(--navy);
+            line-height: 1.1;
+        }
+
+        .logo-text small {
+            display: block;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: var(--muted);
+            letter-spacing: 0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--ink);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--navy);
+        }
+
+        .btn {
+            background: var(--navy);
+            color: #fff;
+            padding: 12px 26px;
+            border: none;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+            font-family: inherit;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            background: var(--navy-dark);
+            box-shadow: 0 10px 20px rgba(44, 74, 99, 0.2);
+        }
+
+        .btn-line {
+            background: #06C755;
+        }
+
+        .btn-line:hover {
+            background: #05A647;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--navy);
+            border: 1.5px solid var(--navy);
+        }
+
+        .btn-outline:hover {
+            background: var(--navy);
+            color: #fff;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 70px 0 90px;
+            display: grid;
+            grid-template-columns: 1.1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--soft-blue);
+            color: var(--navy);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .hero-text h1 {
+            font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+            font-weight: 800;
+            line-height: 1.15;
+            letter-spacing: -0.5px;
+            margin-bottom: 22px;
+            color: var(--navy);
+        }
+
+        .hero-text h1 em {
+            font-style: normal;
+            color: var(--gold);
+            position: relative;
+        }
+
+        .hero-text p.lead {
+            font-size: 1.1rem;
+            color: var(--muted);
+            margin-bottom: 32px;
+            max-width: 520px;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .hero-visual {
+            position: relative;
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, var(--soft-blue) 0%, #fff 100%);
+            border-radius: var(--radius);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 30px 60px rgba(44, 74, 99, 0.15);
+        }
+
+        .hero-visual::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 20% 20%, rgba(44, 74, 99, 0.08), transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(201, 163, 107, 0.15), transparent 50%);
+        }
+
+        .hero-visual img {
+            max-width: 70%;
+            height: auto;
+            position: relative;
+            z-index: 1;
+            filter: drop-shadow(0 20px 40px rgba(44, 74, 99, 0.25));
+        }
+
+        .stats {
+            display: flex;
+            gap: 36px;
+            margin-top: 44px;
+            padding-top: 28px;
+            border-top: 1px solid rgba(44, 74, 99, 0.1);
+            flex-wrap: wrap;
+        }
+
+        .stat-num {
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: var(--navy);
+            line-height: 1.2;
+        }
+
+        .stat-num.gold {
+            color: var(--gold);
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 56px;
+        }
+
+        .section-tag {
+            display: inline-block;
+            color: var(--navy);
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+
+        .section-header h2 {
+            font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 14px;
+            color: var(--navy);
+            line-height: 1.2;
+        }
+
+        .section-header p {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 620px;
+            margin: 0 auto;
+        }
+
+        /* Features */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 22px;
+        }
+
+        .feature {
+            background: var(--card);
+            padding: 32px 28px;
+            border-radius: var(--radius);
+            border: 1px solid rgba(44, 74, 99, 0.06);
+            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(44, 74, 99, 0.1);
+            border-color: var(--navy);
+        }
+
+        .feature-icon {
+            width: 52px;
+            height: 52px;
+            background: var(--soft-blue);
+            color: var(--navy);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 18px;
+        }
+
+        .feature h3 {
+            font-size: 1.15rem;
+            margin-bottom: 10px;
+            color: var(--navy);
+            font-weight: 700;
+        }
+
+        .feature p {
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        /* Categories */
+        .categories {
+            background: linear-gradient(180deg, var(--soft-blue) 0%, var(--bg) 100%);
+        }
+
+        .cat-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 28px;
+        }
+
+        .cat-card {
+            background: var(--navy);
+            color: #fff;
+            padding: 50px 40px;
+            border-radius: var(--radius);
+            position: relative;
+            overflow: hidden;
+            min-height: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.3s;
+        }
+
+        .cat-card:hover {
+            transform: translateY(-6px);
+        }
+
+        .cat-card.gold {
+            background: linear-gradient(135deg, #8B6F47 0%, var(--gold) 100%);
+        }
+
+        .cat-card::before {
+            content: "";
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            top: -100px;
+            right: -80px;
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .cat-icon {
+            font-size: 3rem;
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        .cat-card h3 {
+            font-size: 1.6rem;
+            margin-bottom: 12px;
+            position: relative;
+            font-weight: 700;
+        }
+
+        .cat-card p {
+            opacity: 0.9;
+            margin-bottom: 24px;
+            position: relative;
+            font-size: 0.95rem;
+        }
+
+        .cat-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            position: relative;
+            width: fit-content;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+            padding-bottom: 4px;
+            transition: border-color 0.2s;
+        }
+
+        .cat-link:hover {
+            border-color: #fff;
+        }
+
+        /* Products */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .product {
+            background: var(--card);
+            border-radius: var(--radius);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid rgba(44, 74, 99, 0.06);
+        }
+
+        .product:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(44, 74, 99, 0.12);
+        }
+
+        .product-image {
+            aspect-ratio: 4/3;
+            background: linear-gradient(135deg, var(--soft-blue), #fff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4.5rem;
+        }
+
+        .product-info {
+            padding: 22px;
+        }
+
+        .product-tag {
+            display: inline-block;
+            background: var(--soft-blue);
+            color: var(--navy);
+            font-size: 0.72rem;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: 0.3px;
+        }
+
+        .product-tag.gold {
+            background: rgba(201, 163, 107, 0.15);
+            color: #8B6F47;
+        }
+
+        .product-tag.red {
+            background: rgba(230, 57, 70, 0.1);
+            color: var(--red);
+        }
+
+        .product h3 {
+            font-size: 1.15rem;
+            margin-bottom: 6px;
+            color: var(--navy);
+            font-weight: 700;
+        }
+
+        .product-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+        }
+
+        .product-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 12px;
+            border-top: 1px solid rgba(44, 74, 99, 0.08);
+        }
+
+        .product-price {
+            font-weight: 800;
+            font-size: 1.15rem;
+            color: var(--navy);
+        }
+
+        .product-price small {
+            font-size: 0.75rem;
+            color: var(--muted);
+            font-weight: 500;
+        }
+
+        .product-dim {
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        /* About / Why Wood */
+        .about {
+            background: var(--navy);
+            color: #fff;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about h2 {
+            color: #fff;
+            font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.25;
+        }
+
+        .about h2 em {
+            font-style: normal;
+            color: var(--gold);
+        }
+
+        .about p {
+            opacity: 0.9;
+            margin-bottom: 16px;
+        }
+
+        .about-points {
+            list-style: none;
+            margin-top: 24px;
+        }
+
+        .about-points li {
+            padding: 10px 0;
+            padding-left: 32px;
+            position: relative;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .about-points li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-weight: 800;
+            font-size: 1.1rem;
+        }
+
+        .about-visual {
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, var(--navy-dark), var(--navy-deep));
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Testimonial */
+        .testimonial {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .testimonial blockquote {
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 24px;
+            color: var(--navy);
+        }
+
+        .testimonial blockquote em {
+            color: var(--gold);
+            font-style: normal;
+        }
+
+        .testimonial cite {
+            color: var(--muted);
+            font-style: normal;
+            font-size: 0.95rem;
+        }
+
+        .stars {
+            color: var(--gold);
+            margin-bottom: 16px;
+            font-size: 1.1rem;
+        }
+
+        /* CTA */
+        .cta-section {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%);
+            color: #fff;
+            border-radius: var(--radius);
+            padding: 64px 40px;
+            text-align: center;
+            margin: 40px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: "";
+            position: absolute;
+            width: 240px;
+            height: 240px;
+            background: var(--gold);
+            border-radius: 50%;
+            top: -120px;
+            right: -60px;
+            opacity: 0.12;
+        }
+
+        .cta-section::after {
+            content: "";
+            position: absolute;
+            width: 180px;
+            height: 180px;
+            background: var(--green);
+            border-radius: 50%;
+            bottom: -90px;
+            left: -50px;
+            opacity: 0.1;
+        }
+
+        .cta-section h2 {
+            font-size: clamp(1.7rem, 3.5vw, 2.2rem);
+            margin-bottom: 14px;
+            position: relative;
+            font-weight: 800;
+        }
+
+        .cta-section p {
+            opacity: 0.9;
+            margin-bottom: 30px;
+            max-width: 540px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 14px;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        .cta-section .btn-gold {
+            background: var(--gold);
+            color: var(--navy-deep);
+        }
+
+        .cta-section .btn-gold:hover {
+            background: #fff;
+        }
+
+        /* Contact */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+        }
+
+        .contact-card {
+            background: var(--card);
+            padding: 32px 28px;
+            border-radius: var(--radius);
+            text-align: center;
+            border: 1px solid rgba(44, 74, 99, 0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(44, 74, 99, 0.08);
+        }
+
+        .contact-icon {
+            width: 56px;
+            height: 56px;
+            background: var(--soft-blue);
+            color: var(--navy);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin: 0 auto 16px;
+        }
+
+        .contact-card h4 {
+            color: var(--navy);
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .contact-card a {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .contact-card a:hover {
+            color: var(--navy);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--navy-deep);
+            color: rgba(255, 255, 255, 0.7);
+            padding: 60px 0 24px;
+            font-size: 0.9rem;
+        }
+
+        .footer-top {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-brand img {
+            height: 60px;
+            margin-bottom: 14px;
+            background: #fff;
+            padding: 6px;
+            border-radius: 12px;
+        }
+
+        .footer-brand p {
+            line-height: 1.6;
+        }
+
+        .footer-col h5 {
+            color: #fff;
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 10px;
+        }
+
+        .footer-col a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-col a:hover {
+            color: var(--gold);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* Floating LINE button */
+        .float-line {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: #06C755;
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-weight: 800;
+            box-shadow: 0 10px 30px rgba(6, 199, 85, 0.4);
+            z-index: 99;
+            transition: transform 0.2s;
+        }
+
+        .float-line:hover {
+            transform: scale(1.1);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+
+            .hero,
+            .about-grid,
+            .footer-top {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .cat-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 40px 0 60px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .stats {
+                gap: 24px;
+            }
+
+            section {
+                padding: 60px 0;
+            }
+
+            .logo-text {
+                font-size: 0.95rem;
+            }
+
+            .logo-text small {
+                display: none;
+            }
+
+            .topbar-inner {
+                justify-content: center;
+            }
+
+            .topbar .topbar-right {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <div>📞 โทร 02-XXX-XXXX | จันทร์-เสาร์ 9:00-18:00</div>
+            <div class="topbar-right">🚚 จัดส่งทั่วประเทศไทย ✦ รับประกันคุณภาพ</div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="container nav-inner">
+            <div class="logo-wrap">
+                <img src="/logo.png" alt="SAHAHAPPY HOME โลโก้" />
+                <div class="logo-text">
+                    SAHAHAPPY HOME
+                    <small>เฟอร์นิเจอร์ไม้แท้ &amp; เตียงสปา</small>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#products">สินค้า</a></li>
+                <li><a href="#categories">หมวดหมู่</a></li>
+                <li><a href="#about">เกี่ยวกับเรา</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+            <a href="#contact" class="btn">สั่งซื้อสินค้า</a>
+        </div>
+    </nav>
+
+    <header class="hero container">
+        <div class="hero-text">
+            <span class="badge">✦ ผลิตในประเทศไทย</span>
+            <h1>เฟอร์นิเจอร์<em>ไม้แท้</em><br>เพื่อบ้านในแบบคุณ</h1>
+            <p class="lead">SAHAHAPPY HOME ผู้ผลิตเฟอร์นิเจอร์ไม้แท้และเตียงสปาคุณภาพพรีเมียม ออกแบบประณีต ใช้งานทนทาน
+                เพื่อสร้างความสุขในทุกพื้นที่ของบ้านและธุรกิจคุณ</p>
+            <div class="hero-cta">
+                <a href="#products" class="btn">ดูสินค้าทั้งหมด</a>
+                <a href="#contact" class="btn btn-outline">ขอใบเสนอราคา</a>
+            </div>
+            <div class="stats">
+                <div>
+                    <div class="stat-num">10+</div>
+                    <div class="stat-label">ปี ประสบการณ์</div>
+                </div>
+                <div>
+                    <div class="stat-num gold">100%</div>
+                    <div class="stat-label">ไม้แท้คุณภาพดี</div>
+                </div>
+                <div>
+                    <div class="stat-num">5,000+</div>
+                    <div class="stat-label">ลูกค้าทั่วประเทศ</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <img src="/logo.png" alt="SAHAHAPPY HOME" />
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">จุดเด่นของเรา</span>
+                <h2>ทำไมต้องเลือก SAHAHAPPY HOME</h2>
+                <p>เราใส่ใจในทุกรายละเอียด ตั้งแต่การคัดเลือกไม้ การออกแบบ ไปจนถึงการส่งมอบถึงมือคุณ</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">🌳</div>
+                    <h3>ไม้แท้ 100%</h3>
+                    <p>คัดสรรไม้คุณภาพดีจากแหล่งที่ถูกต้องตามกฎหมาย แข็งแรง ทนทาน ใช้งานได้ยาวนาน</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🛠️</div>
+                    <h3>ผลิตด้วยช่างฝีมือ</h3>
+                    <p>ทุกชิ้นงานผ่านการประกอบโดยช่างผู้เชี่ยวชาญ ประณีตทุกรอยต่อ สวยงามทุกมุมมอง</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💆</div>
+                    <h3>เตียงสปามาตรฐาน</h3>
+                    <p>เตียงสปาและเตียงนวดออกแบบเพื่อร้านสปาโดยเฉพาะ รองรับน้ำหนักได้ดี นั่งนวดสบาย</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚚</div>
+                    <h3>จัดส่งทั่วไทย</h3>
+                    <p>บริการจัดส่งทั่วประเทศ พร้อมทีมติดตั้งมืออาชีพในเขตกรุงเทพและปริมณฑล</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="categories">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">หมวดหมู่สินค้า</span>
+                <h2>สินค้าของเรา</h2>
+                <p>เลือกชมสินค้าตามหมวดหมู่ที่คุณสนใจ</p>
+            </div>
+            <div class="cat-grid">
+                <div class="cat-card">
+                    <div>
+                        <div class="cat-icon">🪑</div>
+                        <h3>เฟอร์นิเจอร์ไม้แท้</h3>
+                        <p>โต๊ะ เก้าอี้ ตู้ ชั้นวาง เตียง ดีไซน์ทันสมัย เหมาะกับบ้านและคอนโด ผลิตจากไม้แท้คุณภาพสูง</p>
+                    </div>
+                    <a href="#products" class="cat-link">ดูสินค้าทั้งหมด →</a>
+                </div>
+                <div class="cat-card gold">
+                    <div>
+                        <div class="cat-icon">💆</div>
+                        <h3>เตียงสปา &amp; เตียงนวด</h3>
+                        <p>เตียงสำหรับร้านสปาและร้านนวด แข็งแรง รองรับน้ำหนักดี เบาะนุ่มสบาย ลูกค้าประทับใจ</p>
+                    </div>
+                    <a href="#products" class="cat-link">ดูสินค้าทั้งหมด →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">สินค้าแนะนำ</span>
+                <h2>สินค้ายอดนิยม</h2>
+                <p>คัดสรรสินค้าขายดีและเป็นที่ชื่นชอบของลูกค้า</p>
+            </div>
+            <div class="products-grid">
+                <div class="product">
+                    <div class="product-image">🛏️</div>
+                    <div class="product-info">
+                        <span class="product-tag">ขายดี</span>
+                        <h3>เตียงสปาไม้สัก</h3>
+                        <p class="product-desc">เตียงนวดไม้สักแท้ เบาะหนัง PU พร้อมที่วางหน้า</p>
+                        <div class="product-meta">
+                            <span class="product-price">฿8,900 <small>เริ่มต้น</small></span>
+                            <span class="product-dim">190 × 70 ซม.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">🪑</div>
+                    <div class="product-info">
+                        <span class="product-tag gold">พรีเมียม</span>
+                        <h3>โต๊ะอาหารไม้แท้</h3>
+                        <p class="product-desc">โต๊ะอาหาร 6 ที่นั่ง ไม้แท้ลายธรรมชาติ พร้อมเก้าอี้</p>
+                        <div class="product-meta">
+                            <span class="product-price">฿15,500 <small>เริ่มต้น</small></span>
+                            <span class="product-dim">180 × 90 ซม.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">🛋️</div>
+                    <div class="product-info">
+                        <span class="product-tag red">ใหม่</span>
+                        <h3>เตียงนอนไม้สัก</h3>
+                        <p class="product-desc">เตียงนอน 6 ฟุต ไม้สักแท้ หัวเตียงแกะลายสวยงาม</p>
+                        <div class="product-meta">
+                            <span class="product-price">฿18,900 <small>เริ่มต้น</small></span>
+                            <span class="product-dim">6 ฟุต</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">📚</div>
+                    <div class="product-info">
+                        <span class="product-tag">มีหลายขนาด</span>
+                        <h3>ตู้เก็บของไม้แท้</h3>
+                        <p class="product-desc">ตู้เก็บของอเนกประสงค์ ไม้แท้แข็งแรง ดีไซน์เรียบหรู</p>
+                        <div class="product-meta">
+                            <span class="product-price">฿6,500 <small>เริ่มต้น</small></span>
+                            <span class="product-dim">หลายขนาด</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div>
+                    <span class="section-tag" style="color: var(--gold);">เกี่ยวกับเรา</span>
+                    <h2>คุณค่าของ<em>ไม้แท้</em><br>ที่อยู่กับคุณยาวนาน</h2>
+                    <p>SAHAHAPPY HOME เริ่มต้นจากความรักในงานไม้และความตั้งใจที่จะส่งมอบเฟอร์นิเจอร์คุณภาพให้กับทุกบ้าน
+                        เราเชื่อว่าเฟอร์นิเจอร์ไม้แท้ไม่ใช่แค่ของใช้ แต่เป็นความสุขที่อยู่กับครอบครัวคุณไปอีกหลายสิบปี
+                    </p>
+                    <ul class="about-points">
+                        <li>ใช้ไม้แท้ที่มีแหล่งที่มาถูกต้องตามกฎหมาย</li>
+                        <li>ออกแบบและผลิตโดยช่างไทยมากประสบการณ์</li>
+                        <li>รับประกันคุณภาพสินค้าทุกชิ้น</li>
+                        <li>บริการหลังการขายโดยทีมงานมืออาชีพ</li>
+                    </ul>
+                </div>
+                <div class="about-visual">🌳</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <blockquote>
+                    "สั่งเตียงสปามา 4 ตัวสำหรับร้านที่เชียงใหม่ คุณภาพดีเกินราคามาก
+                    ลูกค้าชมว่าเตียงนุ่มสบายและ<em>แข็งแรงมาก</em> จะกลับมาสั่งอีกแน่นอนค่ะ"
+                </blockquote>
+                <cite>— คุณนภัสสร, เจ้าของร้านสปา จ.เชียงใหม่</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="cta-section">
+                <h2>พร้อมเปลี่ยนบ้านคุณให้สวยงาม?</h2>
+                <p>ติดต่อเราวันนี้ รับใบเสนอราคาฟรี ปรึกษาฟรี ไม่มีค่าใช้จ่าย</p>
+                <div class="cta-buttons">
+                    <a href="https://line.me/" class="btn btn-gold">💬 แชทผ่าน LINE</a>
+                    <a href="tel:02XXXXXXX" class="btn btn-outline" style="color:#fff; border-color:#fff;">📞
+                        โทรหาเรา</a>
+                </div>
+            </div>
+
+            <div class="section-header" style="margin-top: 60px;">
+                <span class="section-tag">ช่องทางการติดต่อ</span>
+                <h2>ติดต่อเรา</h2>
+                <p>เลือกช่องทางที่สะดวกที่สุดสำหรับคุณ</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h4>โทรศัพท์</h4>
+                    <a href="tel:02XXXXXXX">02-XXX-XXXX</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💬</div>
+                    <h4>LINE Official</h4>
+                    <a href="#">@sahahappyhome</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h4>อีเมล</h4>
+                    <a href="mailto:info@sahahappyhome.com">info@sahahappyhome.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h4>ที่อยู่ร้าน</h4>
+                    <a href="#">กรุงเทพมหานคร</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="/logo.png" alt="SAHAHAPPY HOME" />
+                    <p>เฟอร์นิเจอร์ไม้แท้และเตียงสปาคุณภาพ ผลิตด้วยใจ ส่งมอบความสุขให้ทุกบ้าน</p>
+                </div>
+                <div class="footer-col">
+                    <h5>สินค้า</h5>
+                    <ul>
+                        <li><a href="#products">เฟอร์นิเจอร์ไม้</a></li>
+                        <li><a href="#products">เตียงสปา</a></li>
+                        <li><a href="#products">เตียงนอน</a></li>
+                        <li><a href="#products">โต๊ะ-เก้าอี้</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>เกี่ยวกับ</h5>
+                    <ul>
+                        <li><a href="#about">เรื่องราวของเรา</a></li>
+                        <li><a href="#features">จุดเด่น</a></li>
+                        <li><a href="#contact">ติดต่อเรา</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>บริการ</h5>
+                    <ul>
+                        <li><a href="#">การจัดส่ง</a></li>
+                        <li><a href="#">การรับประกัน</a></li>
+                        <li><a href="#">ใบเสนอราคา</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2025 SAHAHAPPY HOME. สงวนลิขสิทธิ์
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://line.me/" class="float-line" title="แชท LINE">LINE</a>
+
+</body>
+
+</html>
