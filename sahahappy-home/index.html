@@ -705,6 +705,234 @@
             background: #fff;
         }
 
+        /* Order Channels */
+        .order-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+            margin-bottom: 80px;
+        }
+
+        .order-card {
+            background: var(--card);
+            padding: 36px 28px;
+            border-radius: var(--radius);
+            text-decoration: none;
+            color: var(--ink);
+            text-align: center;
+            border: 2px solid rgba(44, 74, 99, 0.08);
+            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .order-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--navy);
+        }
+
+        .order-card.line::before {
+            background: #06C755;
+        }
+
+        .order-card.shopee::before {
+            background: #EE4D2D;
+        }
+
+        .order-card.phone::before {
+            background: var(--gold);
+        }
+
+        .order-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px rgba(44, 74, 99, 0.15);
+            border-color: var(--navy);
+        }
+
+        .order-card.line:hover {
+            border-color: #06C755;
+        }
+
+        .order-card.shopee:hover {
+            border-color: #EE4D2D;
+        }
+
+        .order-card.phone:hover {
+            border-color: var(--gold);
+        }
+
+        .order-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--soft-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 18px;
+        }
+
+        .order-card.line .order-icon {
+            background: rgba(6, 199, 85, 0.12);
+        }
+
+        .order-card.shopee .order-icon {
+            background: rgba(238, 77, 45, 0.12);
+        }
+
+        .order-card.phone .order-icon {
+            background: rgba(201, 163, 107, 0.15);
+        }
+
+        .order-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            color: var(--navy);
+            font-weight: 800;
+        }
+
+        .order-card p {
+            color: var(--muted);
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+
+        .order-id {
+            display: inline-block;
+            background: var(--soft-blue);
+            color: var(--navy);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 18px;
+        }
+
+        .order-card.line .order-id {
+            background: rgba(6, 199, 85, 0.12);
+            color: #06A647;
+        }
+
+        .order-card.shopee .order-id {
+            background: rgba(238, 77, 45, 0.12);
+            color: #EE4D2D;
+        }
+
+        .order-card.phone .order-id {
+            background: rgba(201, 163, 107, 0.15);
+            color: #8B6F47;
+        }
+
+        .order-btn {
+            margin-top: auto;
+            color: var(--navy);
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding-top: 12px;
+            border-top: 1px solid rgba(44, 74, 99, 0.1);
+            width: 100%;
+            transition: color 0.2s;
+        }
+
+        .order-card.line .order-btn {
+            color: #06A647;
+        }
+
+        .order-card.shopee .order-btn {
+            color: #EE4D2D;
+        }
+
+        .order-card.phone .order-btn {
+            color: #8B6F47;
+        }
+
+        /* How to Order */
+        .how-to-order {
+            background: linear-gradient(135deg, var(--soft-blue) 0%, #fff 100%);
+            padding: 50px 40px;
+            border-radius: var(--radius);
+            border: 1px solid rgba(44, 74, 99, 0.08);
+        }
+
+        .how-title {
+            text-align: center;
+            color: var(--navy);
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 800;
+            margin-bottom: 40px;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+        }
+
+        .step {
+            background: #fff;
+            padding: 28px 22px;
+            border-radius: var(--radius);
+            text-align: center;
+            position: relative;
+            border: 1px solid rgba(44, 74, 99, 0.06);
+            transition: transform 0.3s;
+        }
+
+        .step:hover {
+            transform: translateY(-4px);
+        }
+
+        .step-num {
+            position: absolute;
+            top: -16px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 36px;
+            height: 36px;
+            background: var(--navy);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1rem;
+        }
+
+        .step-icon {
+            font-size: 2rem;
+            margin: 14px 0 10px;
+        }
+
+        .step h4 {
+            color: var(--navy);
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .step p {
+            color: var(--muted);
+            font-size: 0.88rem;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .how-to-order {
+                padding: 32px 20px;
+            }
+        }
+
         /* Contact */
         .contact-grid {
             display: grid;
@@ -912,9 +1140,10 @@
                 <li><a href="#products">สินค้า</a></li>
                 <li><a href="#categories">หมวดหมู่</a></li>
                 <li><a href="#about">เกี่ยวกับเรา</a></li>
+                <li><a href="#order">สั่งซื้อ</a></li>
                 <li><a href="#contact">ติดต่อ</a></li>
             </ul>
-            <a href="#contact" class="btn">สั่งซื้อสินค้า</a>
+            <a href="#order" class="btn">สั่งซื้อสินค้า</a>
         </div>
     </nav>
 
@@ -1098,6 +1327,75 @@
                     ลูกค้าชมว่าเตียงนุ่มสบายและ<em>แข็งแรงมาก</em> จะกลับมาสั่งอีกแน่นอนค่ะ"
                 </blockquote>
                 <cite>— คุณนภัสสร, เจ้าของร้านสปา จ.เชียงใหม่</cite>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ORDER CHANNELS SECTION ===== -->
+    <section id="order">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">สั่งซื้อสินค้า</span>
+                <h2>ช่องทางการสั่งซื้อ</h2>
+                <p>เลือกช่องทางที่สะดวกที่สุดสำหรับคุณ ปรึกษาฟรี ไม่มีค่าใช้จ่าย</p>
+            </div>
+
+            <div class="order-grid">
+                <a href="https://line.me/ti/p/~himandjim" target="_blank" class="order-card line">
+                    <div class="order-icon">💬</div>
+                    <h3>LINE</h3>
+                    <p>ปรึกษา ขอใบเสนอราคา<br>คุยกับเราโดยตรง</p>
+                    <span class="order-id">@himandjim</span>
+                    <span class="order-btn">เปิดแชท →</span>
+                </a>
+
+                <a href="https://shopee.co.th/boontanan?entryPoint=ShopBySearch&searchKeyword=sahahappyhome"
+                    target="_blank" class="order-card shopee">
+                    <div class="order-icon">🛍️</div>
+                    <h3>Shopee</h3>
+                    <p>ซื้อง่าย รับโปรโมชั่น<br>ส่งฟรี เก็บเงินปลายทาง</p>
+                    <span class="order-id">ร้าน boontanan</span>
+                    <span class="order-btn">ไปที่ร้าน →</span>
+                </a>
+
+                <a href="tel:0649544987" class="order-card phone">
+                    <div class="order-icon">📞</div>
+                    <h3>โทรสั่งซื้อ</h3>
+                    <p>สำหรับลูกค้าธุรกิจ<br>หรือสั่งจำนวนมาก</p>
+                    <span class="order-id">064-954-4987</span>
+                    <span class="order-btn">โทรเลย →</span>
+                </a>
+            </div>
+
+            <!-- วิธีการสั่งซื้อ 4 ขั้น -->
+            <div class="how-to-order">
+                <h3 class="how-title">ขั้นตอนการสั่งซื้อง่ายๆ</h3>
+                <div class="steps-grid">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <div class="step-icon">💬</div>
+                        <h4>ทักแชทปรึกษา</h4>
+                        <p>ผ่าน LINE หรือโทร แจ้งสินค้าที่สนใจ ปรึกษาฟรี</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <div class="step-icon">📋</div>
+                        <h4>รับใบเสนอราคา</h4>
+                        <p>ทีมงานส่งรายละเอียดสินค้าและราคาให้ตรวจสอบ</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <div class="step-icon">💰</div>
+                        <h4>โอนมัดจำ 50%</h4>
+                        <p>ยืนยันออเดอร์ด้วยการโอนมัดจำ ส่งสลิปทาง LINE</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">4</div>
+                        <div class="step-icon">🚚</div>
+                        <h4>จัดส่ง + ชำระส่วนที่เหลือ</h4>
+                        <p>นัดวันส่ง ชำระส่วนที่เหลือเมื่อรับสินค้า</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
