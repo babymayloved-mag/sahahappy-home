@@ -1,0 +1,2490 @@
+{
+  "brand": "SAHA HAPPY HOME",
+  "source": "P SAHA catalog (1).pdf",
+  "categories": {
+    "beds": "เตียงสปาและเตียงนวด",
+    "chairs": "เก้าอี้สปา",
+    "sauna": "ซาวน่าและกระโจม",
+    "mattresses": "ที่นอนนวด",
+    "linen": "ผ้าและเครื่องนอน",
+    "accessories": "อุปกรณ์สปา",
+    "clothing": "ชุดและรองเท้า",
+    "interiors": "ตกแต่งร้านและผ้าม่าน"
+  },
+  "products": [
+    {
+      "id": "YSB01",
+      "name": "เตียงอโรม่า รุ่น Tar",
+      "category": "beds",
+      "sourcePage": 2,
+      "images": [
+        "catalog/images/1397.webp"
+      ],
+      "price": 7500,
+      "currency": "THB",
+      "dimensions": "80 × 200 × 75 ซม.",
+      "details": [
+        "ไม้สนยุโรป",
+        "พร้อมเบาะนอน ฟองน้ำหนา 3 นิ้ว",
+        "ชั้นวางของด้านล่าง",
+        "ทำสีโอ๊ค",
+        "เบาะหนัง PU ตามคำอธิบายในแคตตาล็อก"
+      ],
+      "note": "แคตตาล็อกระบุเพิ่มหนัง PU 1,000 บาท กรุณายืนยันชนิดหนังและราคารวมกับร้านก่อนสั่งซื้อ",
+      "variants": []
+    },
+    {
+      "id": "YSB02",
+      "name": "เตียงอโรม่า รุ่น Tar+",
+      "category": "beds",
+      "sourcePage": 3,
+      "images": [
+        "catalog/images/1397.webp"
+      ],
+      "price": 8500,
+      "currency": "THB",
+      "dimensions": "90 × 200 × 75 ซม.",
+      "details": [
+        "ไม้สนยุโรป",
+        "พร้อมเบาะนอน ฟองน้ำหนา 3 นิ้ว",
+        "ชั้นวางของด้านล่าง",
+        "ทำสีโอ๊ค",
+        "เบาะหนัง PU ตามคำอธิบายในแคตตาล็อก"
+      ],
+      "note": "แคตตาล็อกระบุเพิ่มหนัง PU 1,000 บาท กรุณายืนยันชนิดหนังและราคารวมกับร้านก่อนสั่งซื้อ",
+      "variants": []
+    },
+    {
+      "id": "YSB03",
+      "name": "เตียงอโรม่า รุ่น Essential",
+      "category": "beds",
+      "sourcePage": 2,
+      "images": [
+        "catalog/images/1398.webp"
+      ],
+      "price": 6500,
+      "currency": "THB",
+      "dimensions": "80 × 200 × 75 ซม.",
+      "details": [
+        "ไม้สนยุโรป",
+        "พร้อมเบาะนอน ฟองน้ำหนา 3 นิ้ว",
+        "ชั้นวางของด้านล่าง",
+        "เคลือบใส",
+        "เบาะหนัง PU ตามคำอธิบายในแคตตาล็อก"
+      ],
+      "note": "แคตตาล็อกระบุเพิ่มหนัง PU 1,000 บาท กรุณายืนยันชนิดหนังและราคารวมกับร้านก่อนสั่งซื้อ",
+      "variants": []
+    },
+    {
+      "id": "YSB04",
+      "name": "เตียงอโรม่า รุ่น Essential +",
+      "category": "beds",
+      "sourcePage": 4,
+      "images": [
+        "catalog/images/1447.webp"
+      ],
+      "price": 7500,
+      "currency": "THB",
+      "dimensions": "90 × 200 × 75 ซม.",
+      "details": [
+        "ไม้สนยุโรป",
+        "พร้อมเบาะนอน ฟองน้ำหนา 3 นิ้ว",
+        "ชั้นวางของด้านล่าง",
+        "เคลือบใส",
+        "เบาะหนัง PVC"
+      ],
+      "note": "แคตตาล็อกระบุเพิ่มหนัง PU 1,000 บาท กรุณายืนยันชนิดหนังและราคารวมกับร้านก่อนสั่งซื้อ",
+      "variants": []
+    },
+    {
+      "id": "YSB06",
+      "name": "เตียงอโรม่า รุ่น Battens",
+      "category": "beds",
+      "sourcePage": 2,
+      "images": [
+        "catalog/images/1401.webp"
+      ],
+      "price": 6500,
+      "currency": "THB",
+      "dimensions": "80 × 200 × 75 ซม.",
+      "details": [
+        "ไม้สนยุโรป",
+        "พร้อมเบาะนอน ฟองน้ำหนา 3 นิ้ว",
+        "ชั้นวางของด้านล่าง",
+        "เคลือบใส พร้อมชั้นวางไม้ระแนง",
+        "เบาะหนัง PU ตามคำอธิบายในแคตตาล็อก"
+      ],
+      "note": "แคตตาล็อกระบุเพิ่มหนัง PU 1,000 บาท กรุณายืนยันชนิดหนังและราคารวมกับร้านก่อนสั่งซื้อ",
+      "variants": []
+    },
+    {
+      "id": "YSB05",
+      "name": "เตียงอโรม่า รุ่น Battens MAX",
+      "category": "beds",
+      "sourcePage": 4,
+      "images": [
+        "catalog/images/1448.webp"
+      ],
+      "price": 8500,
+      "currency": "THB",
+      "dimensions": "90 × 200 × 75 ซม.",
+      "details": [
+        "ไม้สนยุโรป",
+        "พร้อมเบาะนอน ฟองน้ำหนา 3 นิ้ว",
+        "ชั้นวางของด้านล่าง",
+        "เคลือบใส พร้อมชั้นวางไม้ระแนง",
+        "เบาะหนัง PVC"
+      ],
+      "note": "แคตตาล็อกระบุเพิ่มหนัง PU 1,000 บาท กรุณายืนยันชนิดหนังและราคารวมกับร้านก่อนสั่งซื้อ",
+      "variants": []
+    },
+    {
+      "id": "YSB07",
+      "name": "เตียงอโรม่า รุ่น My Shelf",
+      "category": "beds",
+      "sourcePage": 4,
+      "images": [
+        "catalog/images/1450.webp"
+      ],
+      "price": 12500,
+      "currency": "THB",
+      "dimensions": "90 × 200 × 75 ซม.",
+      "details": [
+        "ไม้สนยุโรป ทำสีโอ๊ค",
+        "เบาะหนัง PVC ฟองน้ำหนา 3 นิ้ว",
+        "ชั้นวางของพร้อมประตู"
+      ],
+      "note": "แคตตาล็อกระบุเพิ่มหนัง PU 1,000 บาท กรุณายืนยันชนิดหนังและราคารวมกับร้านก่อนสั่งซื้อ",
+      "variants": [],
+      "priceSource": "owner-confirmed-2026-09-30"
+    },
+    {
+      "id": "YSBS01",
+      "name": "ตู้อบซาวน่า รุ่น Sola",
+      "category": "sauna",
+      "sourcePage": 5,
+      "images": [
+        "catalog/images/1483.webp"
+      ],
+      "price": 13500,
+      "currency": "THB",
+      "dimensions": "80 × 80 × 180 ซม.",
+      "details": [
+        "ไม้สนยุโรป ขัดเคลือบ",
+        "แผงควบคุมอุณหภูมิ",
+        "อบระบบไอน้ำ",
+        "มีม้านั่งไม้",
+        "1 ที่นั่ง"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "YSBS02",
+      "name": "ตู้อบซาวน่า รุ่น En",
+      "category": "sauna",
+      "sourcePage": 5,
+      "images": [
+        "catalog/images/1480.webp"
+      ],
+      "price": 15500,
+      "currency": "THB",
+      "dimensions": "100 × 100 × 180 ซม.",
+      "details": [
+        "ไม้สนยุโรป ขัดเคลือบ",
+        "แผงควบคุมอุณหภูมิ",
+        "อบระบบไอน้ำ",
+        "มีม้านั่งไม้",
+        "1–2 ที่นั่ง"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "YSBS03",
+      "name": "ตู้อบซาวน่า รุ่น Thara",
+      "category": "sauna",
+      "sourcePage": 5,
+      "images": [
+        "catalog/images/1481.webp"
+      ],
+      "price": 25900,
+      "currency": "THB",
+      "dimensions": "120 × 120 × 180 ซม.",
+      "details": [
+        "ไม้สนยุโรป ขัดเคลือบ",
+        "แผงควบคุมอุณหภูมิ",
+        "อบระบบไอน้ำ",
+        "มีม้านั่งไม้",
+        "2–3 ที่นั่ง"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "YSBS04",
+      "name": "ตู้อบซาวน่า รุ่น Solo",
+      "category": "sauna",
+      "sourcePage": 6,
+      "images": [
+        "catalog/images/1517.webp",
+        "catalog/images/1519.webp"
+      ],
+      "price": 11500,
+      "currency": "THB",
+      "dimensions": "90 × 90 × 110 ซม.",
+      "details": [
+        "ไม้สนยุโรป ขัดเคลือบ",
+        "แผงควบคุมอุณหภูมิ",
+        "อบระบบไอน้ำ",
+        "มีม้านั่งไม้",
+        "1 ที่นั่ง"
+      ],
+      "note": null,
+      "variants": [],
+      "detailViews": [
+        {
+          "src": "catalog/images/1517.webp",
+          "label": "ด้านหน้า"
+        },
+        {
+          "src": "catalog/images/1519.webp",
+          "label": "เปิดตู้",
+          "crop": [
+            0.505,
+            0.005,
+            0.49,
+            0.49
+          ]
+        },
+        {
+          "src": "catalog/images/1519.webp",
+          "label": "ด้านข้าง",
+          "crop": [
+            0.005,
+            0.505,
+            0.49,
+            0.49
+          ]
+        },
+        {
+          "src": "catalog/images/1519.webp",
+          "label": "ภายใน",
+          "crop": [
+            0.505,
+            0.505,
+            0.49,
+            0.49
+          ]
+        }
+      ],
+      "initialDetailView": 1,
+      "detailAspectRatio": 1
+    },
+    {
+      "id": "YSB001",
+      "name": "กระโจมอบซาวน่า",
+      "category": "sauna",
+      "sourcePage": 7,
+      "images": [
+        "catalog/images/1536.webp",
+        "catalog/images/1538.webp"
+      ],
+      "price": 1900,
+      "currency": "THB",
+      "dimensions": "64 × 72 × 190 ซม.",
+      "details": [
+        "1 ที่นั่ง",
+        "ถอดประกอบง่าย",
+        "พร้อมเตาสมุนไพร",
+        "แถมกระเป๋าพกพาตามแคตตาล็อก"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "charcoal-box",
+      "name": "กล่องไม้นั่งถ่าน",
+      "category": "sauna",
+      "sourcePage": 7,
+      "images": [
+        "catalog/images/1539.webp",
+        "catalog/images/1540.webp"
+      ],
+      "price": 1900,
+      "currency": "THB",
+      "dimensions": "35 × 35 × 35 ซม.",
+      "details": [
+        "ไม้สนยุโรป"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "YSBM03",
+      "name": "ที่นอนอโรม่า รุ่น Aromy 100",
+      "category": "mattresses",
+      "sourcePage": 8,
+      "images": [
+        "catalog/images/1561.webp"
+      ],
+      "price": 1890,
+      "currency": "THB",
+      "dimensions": "100 × 200 × 7.6 ซม.",
+      "details": [
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "สัมผัสเนียนนุ่ม",
+        "ฟองน้ำ CHD",
+        "ความหนา 3 นิ้ว"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "YSBM01",
+      "name": "ที่นอนนวดไทย รุ่น Shift 100",
+      "category": "mattresses",
+      "sourcePage": 9,
+      "images": [
+        "catalog/images/1581.webp"
+      ],
+      "price": 1890,
+      "currency": "THB",
+      "dimensions": "100 × 200 × 7.6 ซม.",
+      "details": [
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "สัมผัสเนียนนุ่ม",
+        "ฟองน้ำ CHD",
+        "ความหนา 3 นิ้ว"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "YSBM02",
+      "name": "ที่นอนนวดไทย รุ่น Shift 120",
+      "category": "mattresses",
+      "sourcePage": 9,
+      "images": [
+        "catalog/images/1582.webp"
+      ],
+      "price": 2390,
+      "currency": "THB",
+      "dimensions": "120 × 200 × 7.6 ซม.",
+      "details": [
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "สัมผัสเนียนนุ่ม",
+        "ฟองน้ำ CHD",
+        "ความหนา 3 นิ้ว"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "training-mattress",
+      "name": "ที่นอนสำหรับสอนนวดไทย",
+      "category": "mattresses",
+      "sourcePage": 10,
+      "images": [
+        "catalog/images/1608.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": "90 × 200 × 2.5 ซม.",
+      "details": [
+        "หนัง PU เกรด A",
+        "ฟองน้ำ CHD",
+        "ความหนา 1 นิ้ว"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "SHR02",
+      "name": "เก้าอี้สปา รุ่น Avant",
+      "category": "chairs",
+      "sourcePage": 11,
+      "images": [
+        "catalog/images/1629.webp",
+        "catalog/images/1630.webp",
+        "catalog/images/1631.webp"
+      ],
+      "price": 7500,
+      "currency": "THB",
+      "dimensions": "80 × 75 × 100 ซม.",
+      "details": [
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "โครงสร้างโลหะ รับน้ำหนัก 100 กก.+ ตามแคตตาล็อก",
+        "คันโยกปรับเอน",
+        "เลือกสีได้หลากหลาย",
+        "ช่องเก็บของด้านข้าง",
+        "ช่องชาร์จ USB 2 พอร์ต"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "SHR03",
+      "name": "เก้าอี้สปา รุ่น Omni",
+      "category": "chairs",
+      "sourcePage": 12,
+      "images": [
+        "catalog/images/1648.webp"
+      ],
+      "price": 7500,
+      "currency": "THB",
+      "dimensions": "80 × 75 × 100 ซม.",
+      "details": [
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "โครงสร้างโลหะ รับน้ำหนัก 100 กก.+ ตามแคตตาล็อก",
+        "เลือกสีได้หลากหลาย",
+        "ที่วางแก้วน้ำ",
+        "ช่องเก็บของด้านข้าง",
+        "ช่องชาร์จ USB 2 พอร์ต (custom)"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "SHR04",
+      "name": "เก้าอี้สปา จัมโบ้",
+      "category": "chairs",
+      "sourcePage": 13,
+      "images": [
+        "catalog/images/1660.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": "95 × 93 × 106 ซม.",
+      "details": [
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "โครงสร้างโลหะ รับน้ำหนัก 100 กก.+ ตามแคตตาล็อก",
+        "คันโยกปรับเอน",
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": [
+        "ชุด 1: เก้าอี้ + สเต็ปไม้ + อ่างล้างเท้า",
+        "ชุด 2: เก้าอี้ + สเต็ปไม้ + อ่างล้างเท้าระบบน้ำวน"
+      ]
+    },
+    {
+      "id": "SHR05",
+      "name": "เก้าอี้สปา เฮลท์แคร์ & สปา",
+      "category": "chairs",
+      "sourcePage": 14,
+      "images": [
+        "catalog/images/1680.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": "90 × 100 × 100 ซม.",
+      "details": [
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "โครงสร้างโลหะ รับน้ำหนัก 100 กก.+ ตามแคตตาล็อก",
+        "คันโยกปรับเอน",
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": [
+        "ชุด 1: เก้าอี้ + สเต็ปไม้ + อ่างล้างเท้า",
+        "ชุด 2: เก้าอี้ + สเต็ปไม้ + อ่างล้างเท้าระบบน้ำวน"
+      ]
+    },
+    {
+      "id": "SHR01",
+      "name": "เก้าอี้สปา รุ่น EASY",
+      "category": "chairs",
+      "sourcePage": 15,
+      "images": [
+        "catalog/images/1702.webp",
+        "catalog/images/1705.webp"
+      ],
+      "price": 9500,
+      "currency": "THB",
+      "dimensions": "82 × 80 × 105 ซม.",
+      "details": [
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "โครงสร้างโลหะ รับน้ำหนัก 100 กก.+ ตามแคตตาล็อก",
+        "คันโยกปรับเอน",
+        "เลือกสีได้หลากหลาย",
+        "ที่วางแก้วสแตนเลส",
+        "ช่องเก็บของด้านข้าง",
+        "ช่องชาร์จ USB 2 พอร์ต",
+        "ขนาดเก้าอี้และสตูลเพิ่มเติมในแคตตาล็อกหน้า 16–17"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "YSBSP01",
+      "name": "เตียงนวดไทย รุ่น GRANDE",
+      "category": "beds",
+      "sourcePage": 18,
+      "images": [
+        "catalog/images/1740.webp"
+      ],
+      "price": 6900,
+      "currency": "THB",
+      "dimensions": "150 × 200 × 53 ซม.",
+      "details": [
+        "ไม้สนแท้นำเข้า",
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "ฟองน้ำ CHD"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "YSBSP02",
+      "name": "เตียงนวดไทย รุ่น Prime",
+      "category": "beds",
+      "sourcePage": 19,
+      "images": [
+        "catalog/images/3828.webp"
+      ],
+      "price": 5900,
+      "currency": "THB",
+      "dimensions": "120 × 200 × 53 ซม.",
+      "details": [
+        "ไม้สนแท้นำเข้า",
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "ฟองน้ำ CHD"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "YSBSP04",
+      "name": "เตียงนวดไทย รุ่น Grace",
+      "category": "beds",
+      "sourcePage": 20,
+      "images": [
+        "catalog/images/1785.webp"
+      ],
+      "price": 4500,
+      "currency": "THB",
+      "dimensions": "100 × 200 × 53 ซม.",
+      "details": [
+        "ไม้สนแท้นำเข้า",
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "ฟองน้ำ CHD"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "YSBSP05",
+      "name": "เตียงนวดไทย รุ่น Compact",
+      "category": "beds",
+      "sourcePage": 21,
+      "images": [
+        "catalog/images/3928.webp"
+      ],
+      "price": 3900,
+      "currency": "THB",
+      "dimensions": "90 × 200 × 53 ซม.",
+      "details": [
+        "ไม้สนแท้นำเข้า",
+        "หนัง PU เกรด A ทำความสะอาดง่าย",
+        "ฟองน้ำ CHD"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "face-pillow",
+      "name": "หมอนรองหน้า / หมอนเตียงสปา",
+      "category": "accessories",
+      "sourcePage": 22,
+      "images": [
+        "catalog/images/1841.webp"
+      ],
+      "price": 390,
+      "currency": "THB",
+      "dimensions": "35 × 30 ซม.",
+      "details": [
+        "หนัง PU",
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "facial-pillow",
+      "name": "หมอนเตียงนวดหน้า",
+      "category": "accessories",
+      "sourcePage": 22,
+      "images": [
+        "catalog/images/1847.webp"
+      ],
+      "price": 390,
+      "currency": "THB",
+      "dimensions": "35 × 30 ซม.",
+      "details": [
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "thai-pillow",
+      "name": "หมอนนวดไทย",
+      "category": "accessories",
+      "sourcePage": 22,
+      "images": [
+        "catalog/images/1842.webp"
+      ],
+      "price": 390,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "หนัง PU",
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": [
+        "L: 40 × 56 ซม. — 390 บาท",
+        "XL: 47 × 64 ซม. — 390 บาท"
+      ]
+    },
+    {
+      "id": "head-spa-bed",
+      "name": "เตียงสปาศีรษะและนวดหน้า",
+      "category": "beds",
+      "sourcePage": 23,
+      "images": [
+        "catalog/images/1868.webp",
+        "catalog/images/1872.webp",
+        "catalog/images/1887.webp",
+        "catalog/images/1888.webp"
+      ],
+      "price": 15900,
+      "currency": "THB",
+      "dimensions": "70 × 200 × 80 ซม.",
+      "details": [
+        "โครงโลหะหนา ขัดเคลือบ",
+        "หนัง SMT",
+        "ใช้สำหรับสปาผมเวียดนามได้ (หน้า 24)",
+        "ดูอุปกรณ์และคุณสมบัติวัสดุทั้งหมดในหน้าแคตตาล็อก"
+      ],
+      "note": "รายละเอียดอุปกรณ์และคุณสมบัติหนังเป็นข้อมูลตามแคตตาล็อก กรุณายืนยันชุดอุปกรณ์กับร้าน",
+      "variants": []
+    },
+    {
+      "id": "therapist-uniform",
+      "name": "ชุดหมอนวด / Therapist",
+      "category": "clothing",
+      "sourcePage": 25,
+      "images": [
+        "catalog/images/1904.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "ผ้าสโนว / โซรอน",
+        "ขนาด M, L, XL"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "reception-uniform",
+      "name": "ชุดพนักงานต้อนรับ",
+      "category": "clothing",
+      "sourcePage": 25,
+      "images": [
+        "catalog/images/1905.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "ผ้าสโนว / โซรอน",
+        "ขนาด M, L, XL"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "waffle-robe",
+      "name": "ชุดคลุม ผ้ารังผึ้ง",
+      "category": "clothing",
+      "sourcePage": 25,
+      "images": [
+        "catalog/images/1906.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "ผ้ารังผึ้ง หนานุ่ม เก็บอุณหภูมิ",
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "guest-outfit",
+      "name": "ชุดลูกค้า",
+      "category": "clothing",
+      "sourcePage": 26,
+      "images": [
+        "catalog/images/1934.webp",
+        "catalog/images/1935.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "ผ้า TC + Cotton",
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "slippers",
+      "name": "สลีปเปอร์",
+      "category": "clothing",
+      "sourcePage": 26,
+      "images": [
+        "catalog/images/1936.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "สลีปเปอร์ผ้าสำหรับใช้ภายในบ้าน / อาคาร",
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "thai-slippers",
+      "name": "รองเท้าลายไทย",
+      "category": "clothing",
+      "sourcePage": 26,
+      "images": [
+        "catalog/images/1937.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "รองเท้าสลีปเปอร์ลายไทย"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "woven-slippers",
+      "name": "รองเท้าสวม สลีปเปอร์สาน",
+      "category": "clothing",
+      "sourcePage": 27,
+      "images": [
+        "catalog/images/1955.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "สามารถเลือกปักลายได้"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "massage-tray",
+      "name": "ถาดใส่อุปกรณ์นวด",
+      "category": "accessories",
+      "sourcePage": 27,
+      "images": [
+        "catalog/images/1956.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": "10 × 14 นิ้ว",
+      "details": [
+        "ถาดสี่เหลี่ยมผืนผ้า ลายสาน"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "foot-brush",
+      "name": "แปรงขัดเท้า",
+      "category": "accessories",
+      "sourcePage": 27,
+      "images": [
+        "catalog/images/1957.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "ขนาดกะทัดรัด สำหรับขัดเท้า"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "wooden-tray",
+      "name": "ถาดใส่อุปกรณ์นวดเท้า",
+      "category": "accessories",
+      "sourcePage": 28,
+      "images": [
+        "catalog/images/1970.webp",
+        "catalog/images/1975.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": "L",
+      "details": [
+        "ทำจากไม้ยางพารา"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "foot-basin",
+      "name": "อ่างล้างเท้า",
+      "category": "accessories",
+      "sourcePage": 28,
+      "images": [
+        "catalog/images/1971.webp",
+        "catalog/images/1972.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": "เส้นผ่านศูนย์กลาง 14 นิ้ว",
+      "details": [],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "spa-blanket-set",
+      "name": "ชุดเซตผ้าห่มเตียงสปา",
+      "category": "linen",
+      "sourcePage": 29,
+      "images": [
+        "catalog/images/1988.webp"
+      ],
+      "price": 790,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "ผ้าห่ม 1 ผืน ขนาด 30 × 60 นิ้ว",
+        "ผ้าเช็ดหน้า 2 ผืน"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "foot-towel-set",
+      "name": "ผ้าขนหนูครบชุดสำหรับนวดเท้า",
+      "category": "linen",
+      "sourcePage": 29,
+      "images": [
+        "catalog/images/1989.webp"
+      ],
+      "price": 190,
+      "currency": "THB",
+      "dimensions": "15 × 30 นิ้ว",
+      "details": [
+        "ผ้าสำหรับนวดเท้า 2 ผืน",
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "bed-runner",
+      "name": "ผ้าคาดเตียง",
+      "category": "linen",
+      "sourcePage": 29,
+      "images": [
+        "catalog/images/4278.webp",
+        "catalog/images/4279.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "ผ้า TC รวมปัก",
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "thai-fitted-sheet",
+      "name": "ผ้าปูสำหรับเตียงนวดไทย",
+      "category": "linen",
+      "sourcePage": 30,
+      "images": [
+        "catalog/images/2018.webp"
+      ],
+      "price": 490,
+      "currency": "THB",
+      "dimensions": "100 × 200 × 7.5 ซม.",
+      "details": [
+        "ผ้าปูรัดมุม 4 ด้าน"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "thai-towel-set",
+      "name": "ผ้าขนหนูครบชุดสำหรับนวดไทย",
+      "category": "linen",
+      "sourcePage": 30,
+      "images": [
+        "catalog/images/2019.webp"
+      ],
+      "price": 190,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "ผ้าห่ม 1 ผืน ขนาด 27 × 54 นิ้ว",
+        "ผ้าสำหรับนวดเท้า 2 ผืน ขนาด 15 × 30 นิ้ว"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "patterned-fitted-sheet",
+      "name": "ผ้าปูสำหรับเตียงนวดไทยลายไทย",
+      "category": "linen",
+      "sourcePage": 30,
+      "images": [
+        "catalog/images/2020.webp"
+      ],
+      "price": 490,
+      "currency": "THB",
+      "dimensions": "100 × 200 × 7.5 ซม.",
+      "details": [
+        "ผ้าปูรัดมุม 1 ผืน"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "massage-sheet",
+      "name": "ผ้าปูรองนวด",
+      "category": "linen",
+      "sourcePage": 31,
+      "images": [
+        "catalog/images/2039.webp"
+      ],
+      "price": 490,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [],
+      "note": null,
+      "variants": [
+        "ลายไทย: 115 × 200 ซม. — 490 บาท",
+        "สีพื้น: 100 × 200 ซม. — 490 บาท"
+      ]
+    },
+    {
+      "id": "spa-fitted-sheet",
+      "name": "ผ้าปูเตียงสปา เจาะรูรัดมุม",
+      "category": "linen",
+      "sourcePage": 31,
+      "images": [
+        "catalog/images/2040.webp",
+        "catalog/images/2042.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": "80 × 200 ซม.",
+      "details": [
+        "มีสีพื้นและลายไทย"
+      ],
+      "note": "แคตตาล็อกแสดงราคา 1,100 บาทใกล้แบบลายไทย กรุณายืนยันราคาสีพื้นกับร้าน",
+      "variants": [
+        "ลายไทย: 1,100 บาท",
+        "สีพื้น: สอบถามราคา"
+      ]
+    },
+    {
+      "id": "massage-bolster",
+      "name": "หมอนรองนวด",
+      "category": "accessories",
+      "sourcePage": 32,
+      "images": [
+        "catalog/images/2071.webp"
+      ],
+      "price": 690,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "ruffled-bed-cover",
+      "name": "ผ้าคลุมเตียงมีระบาย",
+      "category": "linen",
+      "sourcePage": 32,
+      "images": [
+        "catalog/images/2072.webp",
+        "catalog/images/2073.webp"
+      ],
+      "price": 1100,
+      "currency": "THB",
+      "dimensions": "80 × 200 × 7.5 ซม.",
+      "details": [],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "facial-bed-sheet",
+      "name": "ผ้าปูสำหรับเตียงนวดหน้า",
+      "category": "linen",
+      "sourcePage": 33,
+      "images": [
+        "catalog/images/2084.webp"
+      ],
+      "price": 1100,
+      "currency": "THB",
+      "dimensions": "80 × 200 ซม.",
+      "details": [
+        "ผ้า TC",
+        "เลือกสีได้หลากหลาย"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "facial-blanket-set",
+      "name": "ผ้าห่มสำหรับเตียงนวดหน้า",
+      "category": "linen",
+      "sourcePage": 33,
+      "images": [
+        "catalog/images/2086.webp"
+      ],
+      "price": 1100,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "ผ้าห่ม 1 ผืน ขนาด 30 × 60 นิ้ว",
+        "ผ้านวดหน้า 4 ผืน ขนาด 15 × 30 นิ้ว"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "built-in-counter",
+      "name": "เคาน์เตอร์ BUILT IN",
+      "category": "interiors",
+      "sourcePage": 34,
+      "images": [
+        "catalog/images/2106.webp",
+        "catalog/images/2107.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "เลือกแบบได้",
+        "งานไม้ งานกระเบื้อง และไม้ระแนง"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "wall-decoration",
+      "name": "ตกแต่งผนังและแบคดรอป",
+      "category": "interiors",
+      "sourcePage": 34,
+      "images": [
+        "catalog/images/2109.webp",
+        "catalog/images/2110.webp",
+        "catalog/images/2112.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "ผนังโค้ง",
+        "ลามิเนต",
+        "ปรึกษาแบบและรายละเอียดกับร้าน"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "raised-bed-platform",
+      "name": "สเต็ปยกเตียง",
+      "category": "interiors",
+      "sourcePage": 34,
+      "images": [
+        "catalog/images/2108.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "งานเมลามีน",
+        "ปรึกษาขนาดและแบบกับร้าน"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "curtains",
+      "name": "ม่าน UV และม่านโปร่ง",
+      "category": "interiors",
+      "sourcePage": 35,
+      "images": [
+        "catalog/images/2128.webp",
+        "catalog/images/2129.webp",
+        "catalog/images/2130.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [
+        "บริการวัดพื้นที่และให้คำปรึกษาฟรีตามแคตตาล็อก"
+      ],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "wooden-blinds",
+      "name": "ม่านไม้ไผ่และมู่ลี่ไม้",
+      "category": "interiors",
+      "sourcePage": 35,
+      "images": [
+        "catalog/images/2131.webp",
+        "catalog/images/2132.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [],
+      "note": null,
+      "variants": []
+    },
+    {
+      "id": "partitions",
+      "name": "ฉากกั้นห้องและฉากกั้นแอร์",
+      "category": "interiors",
+      "sourcePage": 35,
+      "images": [
+        "catalog/images/2133.webp",
+        "catalog/images/2137.webp"
+      ],
+      "price": null,
+      "currency": "THB",
+      "dimensions": null,
+      "details": [],
+      "note": null,
+      "variants": []
+    }
+  ],
+  "colorChart": "catalog/pages/page-36.webp",
+  "contacts": [
+    {
+      "name": "คุณฮิม",
+      "phone": "064-954-4987"
+    },
+    {
+      "name": "คุณจิม",
+      "phone": "095-469-9239"
+    }
+  ],
+  "groups": [
+    {
+      "id": "YSB01",
+      "name": "เตียงอโรม่า รุ่น Tar",
+      "category": "beds",
+      "productIds": [
+        "YSB01"
+      ]
+    },
+    {
+      "id": "YSB02",
+      "name": "เตียงอโรม่า รุ่น Tar+",
+      "category": "beds",
+      "productIds": [
+        "YSB02"
+      ]
+    },
+    {
+      "id": "YSB03",
+      "name": "เตียงอโรม่า รุ่น Essential",
+      "category": "beds",
+      "productIds": [
+        "YSB03"
+      ]
+    },
+    {
+      "id": "YSB04",
+      "name": "เตียงอโรม่า รุ่น Essential +",
+      "category": "beds",
+      "productIds": [
+        "YSB04"
+      ]
+    },
+    {
+      "id": "YSB06",
+      "name": "เตียงอโรม่า รุ่น Battens",
+      "category": "beds",
+      "productIds": [
+        "YSB06"
+      ]
+    },
+    {
+      "id": "YSB05",
+      "name": "เตียงอโรม่า รุ่น Battens MAX",
+      "category": "beds",
+      "productIds": [
+        "YSB05"
+      ]
+    },
+    {
+      "id": "YSB07",
+      "name": "เตียงอโรม่า รุ่น My Shelf",
+      "category": "beds",
+      "productIds": [
+        "YSB07"
+      ]
+    },
+    {
+      "id": "YSBSP01",
+      "name": "เตียงนวดไทย รุ่น GRANDE",
+      "category": "beds",
+      "productIds": [
+        "YSBSP01"
+      ]
+    },
+    {
+      "id": "YSBSP02",
+      "name": "เตียงนวดไทย รุ่น Prime",
+      "category": "beds",
+      "productIds": [
+        "YSBSP02"
+      ]
+    },
+    {
+      "id": "YSBSP04",
+      "name": "เตียงนวดไทย รุ่น Grace",
+      "category": "beds",
+      "productIds": [
+        "YSBSP04"
+      ]
+    },
+    {
+      "id": "YSBSP05",
+      "name": "เตียงนวดไทย รุ่น Compact",
+      "category": "beds",
+      "productIds": [
+        "YSBSP05"
+      ]
+    },
+    {
+      "id": "head-spa-bed",
+      "name": "เตียงสปาศีรษะและนวดหน้า",
+      "category": "beds",
+      "productIds": [
+        "head-spa-bed"
+      ]
+    },
+    {
+      "id": "SHR02",
+      "name": "เก้าอี้สปา รุ่น Avant",
+      "category": "chairs",
+      "productIds": [
+        "SHR02"
+      ]
+    },
+    {
+      "id": "SHR03",
+      "name": "เก้าอี้สปา รุ่น Omni",
+      "category": "chairs",
+      "productIds": [
+        "SHR03"
+      ]
+    },
+    {
+      "id": "SHR04",
+      "name": "เก้าอี้สปา จัมโบ้",
+      "category": "chairs",
+      "productIds": [
+        "SHR04"
+      ]
+    },
+    {
+      "id": "SHR05",
+      "name": "เก้าอี้สปา เฮลท์แคร์ & สปา",
+      "category": "chairs",
+      "productIds": [
+        "SHR05"
+      ]
+    },
+    {
+      "id": "SHR01",
+      "name": "เก้าอี้สปา รุ่น EASY",
+      "category": "chairs",
+      "productIds": [
+        "SHR01"
+      ]
+    },
+    {
+      "id": "YSBS01",
+      "name": "ตู้อบซาวน่า รุ่น Sola",
+      "category": "sauna",
+      "productIds": [
+        "YSBS01"
+      ]
+    },
+    {
+      "id": "YSBS02",
+      "name": "ตู้อบซาวน่า รุ่น En",
+      "category": "sauna",
+      "productIds": [
+        "YSBS02"
+      ]
+    },
+    {
+      "id": "YSBS03",
+      "name": "ตู้อบซาวน่า รุ่น Thara",
+      "category": "sauna",
+      "productIds": [
+        "YSBS03"
+      ]
+    },
+    {
+      "id": "YSBS04",
+      "name": "ตู้อบซาวน่า รุ่น Solo",
+      "category": "sauna",
+      "productIds": [
+        "YSBS04"
+      ]
+    },
+    {
+      "id": "YSB001",
+      "name": "กระโจมอบซาวน่า",
+      "category": "sauna",
+      "productIds": [
+        "YSB001"
+      ]
+    },
+    {
+      "id": "charcoal-box",
+      "name": "กล่องไม้นั่งถ่าน",
+      "category": "sauna",
+      "productIds": [
+        "charcoal-box"
+      ]
+    },
+    {
+      "id": "YSBM03",
+      "name": "ที่นอนอโรม่า รุ่น Aromy 100",
+      "category": "mattresses",
+      "productIds": [
+        "YSBM03"
+      ]
+    },
+    {
+      "id": "YSBM01",
+      "name": "ที่นอนนวดไทย รุ่น Shift 100",
+      "category": "mattresses",
+      "productIds": [
+        "YSBM01"
+      ]
+    },
+    {
+      "id": "YSBM02",
+      "name": "ที่นอนนวดไทย รุ่น Shift 120",
+      "category": "mattresses",
+      "productIds": [
+        "YSBM02"
+      ]
+    },
+    {
+      "id": "training-mattress",
+      "name": "ที่นอนสำหรับสอนนวดไทย",
+      "category": "mattresses",
+      "productIds": [
+        "training-mattress"
+      ]
+    },
+    {
+      "id": "spa-blanket-set",
+      "name": "ชุดเซตผ้าห่มเตียงสปา",
+      "category": "linen",
+      "productIds": [
+        "spa-blanket-set"
+      ]
+    },
+    {
+      "id": "foot-towel-set",
+      "name": "ผ้าขนหนูครบชุดสำหรับนวดเท้า",
+      "category": "linen",
+      "productIds": [
+        "foot-towel-set"
+      ]
+    },
+    {
+      "id": "bed-runner",
+      "name": "ผ้าคาดเตียง",
+      "category": "linen",
+      "productIds": [
+        "bed-runner"
+      ]
+    },
+    {
+      "id": "thai-fitted-sheet",
+      "name": "ผ้าปูสำหรับเตียงนวดไทย",
+      "category": "linen",
+      "productIds": [
+        "thai-fitted-sheet"
+      ]
+    },
+    {
+      "id": "thai-towel-set",
+      "name": "ผ้าขนหนูครบชุดสำหรับนวดไทย",
+      "category": "linen",
+      "productIds": [
+        "thai-towel-set"
+      ]
+    },
+    {
+      "id": "patterned-fitted-sheet",
+      "name": "ผ้าปูสำหรับเตียงนวดไทยลายไทย",
+      "category": "linen",
+      "productIds": [
+        "patterned-fitted-sheet"
+      ]
+    },
+    {
+      "id": "massage-sheet",
+      "name": "ผ้าปูรองนวด",
+      "category": "linen",
+      "productIds": [
+        "massage-sheet"
+      ]
+    },
+    {
+      "id": "spa-fitted-sheet",
+      "name": "ผ้าปูเตียงสปา เจาะรูรัดมุม",
+      "category": "linen",
+      "productIds": [
+        "spa-fitted-sheet"
+      ]
+    },
+    {
+      "id": "ruffled-bed-cover",
+      "name": "ผ้าคลุมเตียงมีระบาย",
+      "category": "linen",
+      "productIds": [
+        "ruffled-bed-cover"
+      ]
+    },
+    {
+      "id": "facial-bed-sheet",
+      "name": "ผ้าปูสำหรับเตียงนวดหน้า",
+      "category": "linen",
+      "productIds": [
+        "facial-bed-sheet"
+      ]
+    },
+    {
+      "id": "facial-blanket-set",
+      "name": "ผ้าห่มสำหรับเตียงนวดหน้า",
+      "category": "linen",
+      "productIds": [
+        "facial-blanket-set"
+      ]
+    },
+    {
+      "id": "face-pillow",
+      "name": "หมอนรองหน้า / หมอนเตียงสปา",
+      "category": "accessories",
+      "productIds": [
+        "face-pillow"
+      ]
+    },
+    {
+      "id": "facial-pillow",
+      "name": "หมอนเตียงนวดหน้า",
+      "category": "accessories",
+      "productIds": [
+        "facial-pillow"
+      ]
+    },
+    {
+      "id": "thai-pillow",
+      "name": "หมอนนวดไทย",
+      "category": "accessories",
+      "productIds": [
+        "thai-pillow"
+      ]
+    },
+    {
+      "id": "massage-tray",
+      "name": "ถาดใส่อุปกรณ์นวด",
+      "category": "accessories",
+      "productIds": [
+        "massage-tray"
+      ]
+    },
+    {
+      "id": "foot-brush",
+      "name": "แปรงขัดเท้า",
+      "category": "accessories",
+      "productIds": [
+        "foot-brush"
+      ]
+    },
+    {
+      "id": "wooden-tray",
+      "name": "ถาดใส่อุปกรณ์นวดเท้า",
+      "category": "accessories",
+      "productIds": [
+        "wooden-tray"
+      ]
+    },
+    {
+      "id": "foot-basin",
+      "name": "อ่างล้างเท้า",
+      "category": "accessories",
+      "productIds": [
+        "foot-basin"
+      ]
+    },
+    {
+      "id": "massage-bolster",
+      "name": "หมอนรองนวด",
+      "category": "accessories",
+      "productIds": [
+        "massage-bolster"
+      ]
+    },
+    {
+      "id": "therapist-uniform",
+      "name": "ชุดหมอนวด / Therapist",
+      "category": "clothing",
+      "productIds": [
+        "therapist-uniform"
+      ]
+    },
+    {
+      "id": "reception-uniform",
+      "name": "ชุดพนักงานต้อนรับ",
+      "category": "clothing",
+      "productIds": [
+        "reception-uniform"
+      ]
+    },
+    {
+      "id": "waffle-robe",
+      "name": "ชุดคลุม ผ้ารังผึ้ง",
+      "category": "clothing",
+      "productIds": [
+        "waffle-robe"
+      ]
+    },
+    {
+      "id": "guest-outfit",
+      "name": "ชุดลูกค้า",
+      "category": "clothing",
+      "productIds": [
+        "guest-outfit"
+      ]
+    },
+    {
+      "id": "slippers",
+      "name": "สลีปเปอร์",
+      "category": "clothing",
+      "productIds": [
+        "slippers"
+      ]
+    },
+    {
+      "id": "thai-slippers",
+      "name": "รองเท้าลายไทย",
+      "category": "clothing",
+      "productIds": [
+        "thai-slippers"
+      ]
+    },
+    {
+      "id": "woven-slippers",
+      "name": "รองเท้าสวม สลีปเปอร์สาน",
+      "category": "clothing",
+      "productIds": [
+        "woven-slippers"
+      ]
+    },
+    {
+      "id": "built-in-counter",
+      "name": "เคาน์เตอร์ BUILT IN",
+      "category": "interiors",
+      "productIds": [
+        "built-in-counter"
+      ]
+    },
+    {
+      "id": "wall-decoration",
+      "name": "ตกแต่งผนังและแบคดรอป",
+      "category": "interiors",
+      "productIds": [
+        "wall-decoration"
+      ]
+    },
+    {
+      "id": "raised-bed-platform",
+      "name": "สเต็ปยกเตียง",
+      "category": "interiors",
+      "productIds": [
+        "raised-bed-platform"
+      ]
+    },
+    {
+      "id": "curtains",
+      "name": "ม่าน UV และม่านโปร่ง",
+      "category": "interiors",
+      "productIds": [
+        "curtains"
+      ]
+    },
+    {
+      "id": "wooden-blinds",
+      "name": "ม่านไม้ไผ่และมู่ลี่ไม้",
+      "category": "interiors",
+      "productIds": [
+        "wooden-blinds"
+      ]
+    },
+    {
+      "id": "partitions",
+      "name": "ฉากกั้นห้องและฉากกั้นแอร์",
+      "category": "interiors",
+      "productIds": [
+        "partitions"
+      ]
+    }
+  ],
+  "categoryDescriptions": {
+    "beds": "อโรม่า นวดไทย และสปาศีรษะ",
+    "chairs": "เก้าอี้ปรับเอนและชุดสปาเท้า",
+    "sauna": "ตู้อบ กระโจม และอุปกรณ์อบ",
+    "mattresses": "ที่นอนอโรม่า นวดไทย และฝึกสอน",
+    "linen": "ผ้าปู ผ้าห่ม ผ้าขนหนู และผ้าคาดเตียง",
+    "accessories": "หมอน ถาด อ่าง และอุปกรณ์นวด",
+    "clothing": "ชุดพนักงาน ชุดลูกค้า และสลีปเปอร์",
+    "interiors": "เคาน์เตอร์ ผนัง สเต็ป และม่าน"
+  },
+  "media": {
+    "catalog/images/1397.webp": {
+      "width": 560,
+      "height": 560,
+      "crop": [
+        0.025,
+        0.34,
+        0.95,
+        0.63
+      ]
+    },
+    "catalog/images/1398.webp": {
+      "width": 640,
+      "height": 640,
+      "crop": [
+        0.1,
+        0.23,
+        0.82,
+        0.63
+      ]
+    },
+    "catalog/images/1447.webp": {
+      "width": 560,
+      "height": 418,
+      "crop": [
+        0.045,
+        0.11,
+        0.89,
+        0.75
+      ]
+    },
+    "catalog/images/1401.webp": {
+      "width": 398,
+      "height": 480,
+      "crop": [
+        0,
+        0.11,
+        1,
+        0.85
+      ]
+    },
+    "catalog/images/1448.webp": {
+      "width": 480,
+      "height": 417,
+      "crop": [
+        0.035,
+        0.06,
+        0.94,
+        0.9
+      ]
+    },
+    "catalog/images/1450.webp": {
+      "width": 480,
+      "height": 417,
+      "crop": [
+        0.035,
+        0.08,
+        0.92,
+        0.85
+      ]
+    },
+    "catalog/images/1483.webp": {
+      "width": 720,
+      "height": 402,
+      "crop": [
+        0.24,
+        0.01,
+        0.5,
+        0.91
+      ]
+    },
+    "catalog/images/1480.webp": {
+      "width": 480,
+      "height": 480,
+      "crop": [
+        0.1,
+        0.075,
+        0.72,
+        0.84
+      ]
+    },
+    "catalog/images/1481.webp": {
+      "width": 411,
+      "height": 480,
+      "crop": [
+        0.05,
+        0,
+        0.9,
+        0.96
+      ]
+    },
+    "catalog/images/1517.webp": {
+      "width": 480,
+      "height": 480,
+      "crop": [
+        0.035,
+        0.13,
+        0.93,
+        0.81
+      ]
+    },
+    "catalog/images/1519.webp": {
+      "width": 640,
+      "height": 640,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1536.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.22,
+        0.02,
+        0.69,
+        0.91
+      ]
+    },
+    "catalog/images/1538.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.06,
+        0.25,
+        0.88,
+        0.64
+      ]
+    },
+    "catalog/images/1539.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.07,
+        0.1,
+        0.87,
+        0.84
+      ]
+    },
+    "catalog/images/1540.webp": {
+      "width": 448,
+      "height": 560,
+      "crop": [
+        0,
+        0,
+        1,
+        0.5
+      ]
+    },
+    "catalog/images/1561.webp": {
+      "width": 800,
+      "height": 600,
+      "crop": [
+        0.07,
+        0.48,
+        0.87,
+        0.43
+      ]
+    },
+    "catalog/images/1581.webp": {
+      "width": 446,
+      "height": 800,
+      "crop": [
+        0.045,
+        0.52,
+        0.95,
+        0.45
+      ]
+    },
+    "catalog/images/1582.webp": {
+      "width": 800,
+      "height": 800,
+      "crop": [
+        0.055,
+        0.46,
+        0.9,
+        0.46
+      ]
+    },
+    "catalog/images/1608.webp": {
+      "width": 720,
+      "height": 720,
+      "crop": [
+        0.055,
+        0.47,
+        0.89,
+        0.44
+      ]
+    },
+    "catalog/images/1629.webp": {
+      "width": 800,
+      "height": 800,
+      "crop": [
+        0.095,
+        0.24,
+        0.81,
+        0.7
+      ]
+    },
+    "catalog/images/1630.webp": {
+      "width": 424,
+      "height": 560,
+      "crop": [
+        0.07,
+        0.065,
+        0.86,
+        0.86
+      ]
+    },
+    "catalog/images/1631.webp": {
+      "width": 424,
+      "height": 560,
+      "crop": [
+        0.07,
+        0.49,
+        0.86,
+        0.44
+      ]
+    },
+    "catalog/images/1648.webp": {
+      "width": 800,
+      "height": 729,
+      "crop": [
+        0.03,
+        0.2,
+        0.94,
+        0.75
+      ]
+    },
+    "catalog/images/1660.webp": {
+      "width": 640,
+      "height": 800,
+      "crop": [
+        0.065,
+        0.17,
+        0.88,
+        0.545
+      ],
+      "mask": "polygon(0 7%, 51% 7%, 51% 0, 100% 0, 100% 100%, 0 100%)"
+    },
+    "catalog/images/1680.webp": {
+      "width": 600,
+      "height": 800,
+      "crop": [
+        0.12,
+        0.2,
+        0.8,
+        0.54
+      ],
+      "mask": "polygon(0 5%,22% 5%,22% 0,100% 0,100% 100%,0 100%)"
+    },
+    "catalog/images/1702.webp": {
+      "width": 597,
+      "height": 800,
+      "crop": [
+        0.04,
+        0.23,
+        0.92,
+        0.69
+      ]
+    },
+    "catalog/images/1705.webp": {
+      "width": 299,
+      "height": 400,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1740.webp": {
+      "width": 800,
+      "height": 450,
+      "crop": [
+        0.055,
+        0.285,
+        0.91,
+        0.655
+      ]
+    },
+    "catalog/images/3828.webp": {
+      "width": 720,
+      "height": 540,
+      "crop": [
+        0.06,
+        0.365,
+        0.9,
+        0.49
+      ]
+    },
+    "catalog/images/1785.webp": {
+      "width": 800,
+      "height": 600,
+      "crop": [
+        0.08,
+        0.35,
+        0.9,
+        0.54
+      ]
+    },
+    "catalog/images/3928.webp": {
+      "width": 640,
+      "height": 480,
+      "crop": [
+        0.1,
+        0.33,
+        0.82,
+        0.56
+      ]
+    },
+    "catalog/images/1841.webp": {
+      "width": 560,
+      "height": 469,
+      "crop": [
+        0.12,
+        0.24,
+        0.76,
+        0.7
+      ]
+    },
+    "catalog/images/1847.webp": {
+      "width": 480,
+      "height": 640,
+      "crop": [
+        0.1,
+        0.38,
+        0.8,
+        0.49
+      ]
+    },
+    "catalog/images/1842.webp": {
+      "width": 480,
+      "height": 402,
+      "crop": [
+        0.075,
+        0.3,
+        0.85,
+        0.6
+      ]
+    },
+    "catalog/images/1868.webp": {
+      "width": 450,
+      "height": 800,
+      "crop": [
+        0.02,
+        0.19,
+        0.96,
+        0.77
+      ]
+    },
+    "catalog/images/1872.webp": {
+      "width": 600,
+      "height": 800,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1887.webp": {
+      "width": 720,
+      "height": 401,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1888.webp": {
+      "width": 720,
+      "height": 405,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1904.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.02,
+        0.015,
+        0.96,
+        0.96
+      ]
+    },
+    "catalog/images/1905.webp": {
+      "width": 480,
+      "height": 640,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1906.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.07,
+        0.03,
+        0.86,
+        0.94
+      ]
+    },
+    "catalog/images/1934.webp": {
+      "width": 300,
+      "height": 400,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1935.webp": {
+      "width": 360,
+      "height": 480,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1936.webp": {
+      "width": 480,
+      "height": 640,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1937.webp": {
+      "width": 480,
+      "height": 640,
+      "crop": [
+        0,
+        0,
+        1,
+        0.56
+      ]
+    },
+    "catalog/images/1955.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.01,
+        0.02,
+        0.98,
+        0.96
+      ]
+    },
+    "catalog/images/1956.webp": {
+      "width": 480,
+      "height": 640,
+      "crop": [
+        0.045,
+        0.21,
+        0.91,
+        0.73
+      ]
+    },
+    "catalog/images/1957.webp": {
+      "width": 407,
+      "height": 443,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1970.webp": {
+      "width": 405,
+      "height": 720,
+      "crop": [
+        0.06,
+        0.22,
+        0.88,
+        0.63
+      ]
+    },
+    "catalog/images/1975.webp": {
+      "width": 400,
+      "height": 400,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/1971.webp": {
+      "width": 270,
+      "height": 480,
+      "crop": [
+        0.06,
+        0.18,
+        0.88,
+        0.69
+      ]
+    },
+    "catalog/images/1972.webp": {
+      "width": 270,
+      "height": 480,
+      "crop": [
+        0.02,
+        0.27,
+        0.96,
+        0.51
+      ]
+    },
+    "catalog/images/1988.webp": {
+      "width": 427,
+      "height": 640,
+      "crop": [
+        0.02,
+        0.22,
+        0.96,
+        0.75
+      ]
+    },
+    "catalog/images/1989.webp": {
+      "width": 640,
+      "height": 480,
+      "crop": [
+        0.18,
+        0.19,
+        0.65,
+        0.72
+      ]
+    },
+    "catalog/images/4278.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.03,
+        0.27,
+        0.94,
+        0.64
+      ]
+    },
+    "catalog/images/4279.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.02,
+        0.28,
+        0.96,
+        0.69
+      ]
+    },
+    "catalog/images/2018.webp": {
+      "width": 427,
+      "height": 640,
+      "crop": [
+        0.01,
+        0.24,
+        0.98,
+        0.7
+      ]
+    },
+    "catalog/images/2019.webp": {
+      "width": 480,
+      "height": 720,
+      "crop": [
+        0.14,
+        0.21,
+        0.74,
+        0.64
+      ]
+    },
+    "catalog/images/2020.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.02,
+        0.16,
+        0.96,
+        0.77
+      ]
+    },
+    "catalog/images/2039.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.025,
+        0.14,
+        0.95,
+        0.78
+      ]
+    },
+    "catalog/images/2040.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.015,
+        0.18,
+        0.97,
+        0.77
+      ]
+    },
+    "catalog/images/2042.webp": {
+      "width": 480,
+      "height": 320,
+      "crop": [
+        0.01,
+        0.09,
+        0.98,
+        0.7
+      ]
+    },
+    "catalog/images/2071.webp": {
+      "width": 560,
+      "height": 374,
+      "crop": [
+        0.035,
+        0.025,
+        0.93,
+        0.94
+      ]
+    },
+    "catalog/images/2072.webp": {
+      "width": 448,
+      "height": 560,
+      "crop": [
+        0.04,
+        0.27,
+        0.92,
+        0.66
+      ]
+    },
+    "catalog/images/2073.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.03,
+        0.22,
+        0.94,
+        0.7
+      ]
+    },
+    "catalog/images/2084.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.02,
+        0.23,
+        0.96,
+        0.7
+      ]
+    },
+    "catalog/images/2086.webp": {
+      "width": 533,
+      "height": 800,
+      "crop": [
+        0.015,
+        0.2,
+        0.97,
+        0.74
+      ]
+    },
+    "catalog/images/2106.webp": {
+      "width": 429,
+      "height": 640,
+      "crop": [
+        0.04,
+        0.14,
+        0.92,
+        0.82
+      ]
+    },
+    "catalog/images/2107.webp": {
+      "width": 376,
+      "height": 560,
+      "crop": [
+        0.01,
+        0.17,
+        0.98,
+        0.8
+      ]
+    },
+    "catalog/images/2109.webp": {
+      "width": 315,
+      "height": 560,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/2110.webp": {
+      "width": 270,
+      "height": 480,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/2112.webp": {
+      "width": 311,
+      "height": 320,
+      "crop": [
+        0.15,
+        0.095,
+        0.72,
+        0.76
+      ]
+    },
+    "catalog/images/2108.webp": {
+      "width": 409,
+      "height": 560,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/2128.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0.01,
+        0.16,
+        0.98,
+        0.83
+      ]
+    },
+    "catalog/images/2129.webp": {
+      "width": 480,
+      "height": 640,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/2130.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/2131.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/2132.webp": {
+      "width": 420,
+      "height": 560,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/2133.webp": {
+      "width": 480,
+      "height": 264,
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "catalog/images/2137.webp": {
+      "width": 480,
+      "height": 144,
+      "crop": [
+        0,
+        0,
+        1,
+        0.71
+      ]
+    }
+  },
+  "presentationNote": "Each original catalog record is presented as a separate product and organized by category."
+}
