@@ -36,3 +36,24 @@ nav{background:#fffffffa}.topbar{background:var(--navy-deep);letter-spacing:.15p
 @media(max-width:1100px){.hero.container{gap:36px}}
 @media(max-width:800px){.hero.container{gap:30px;padding-top:42px;padding-bottom:48px}.hero-text h1{letter-spacing:-.7px}}
 @media(max-width:600px){.hero.container{padding-top:36px;padding-bottom:42px}.hero-text h1{font-size:2.15rem}.hero-text h1::after{margin-top:22px;width:36px;height:2px}.hero-text p.lead{font-size:.88rem}.hero-cta .btn{min-height:48px}}
+
+/* Square photo system: consistent crops on cards, full source view in details. */
+#catalog-grid .product-image{aspect-ratio:1/1;height:auto}
+#catalog-grid .product-image .photo-frame{aspect-ratio:1/1;height:100%}
+.category-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.category-item{display:flex;flex-direction:column;align-items:stretch;gap:0;padding:0;position:relative;min-height:0}
+.category-item .category-photo{display:block;width:100%;height:auto;aspect-ratio:1/1;overflow:hidden}
+.category-photo .photo-frame{width:100%;height:100%;aspect-ratio:1/1}
+.category-copy{padding:16px 28px 18px 16px}.category-copy strong{font-size:.85rem}.category-copy small{margin-top:5px}
+.category-arrow{position:absolute;right:14px;bottom:23px}
+.hero-visual{aspect-ratio:auto;height:auto}
+.hero-carousel{height:auto;padding-bottom:98px}
+.hero-slides{height:auto;aspect-ratio:1/1}
+.hero-slide{height:calc(100% + 98px)}
+.hero-visual .hero-slide>.photo-frame{height:calc(100% - 98px);aspect-ratio:1/1}
+.catalog-gallery-main{aspect-ratio:1/1;height:auto}
+.catalog-thumbnail:not(.catalog-thumbnail-labeled){width:72px;height:72px}
+.hero-collage{height:auto;grid-template-columns:1fr 1fr;grid-template-rows:auto}
+.hero-collage figure{aspect-ratio:1/1}.hero-collage .collage-main{grid-row:auto;grid-column:1/-1}
+@media(max-width:800px){.category-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}}
+@media(max-width:600px){.category-copy{padding:12px 24px 14px 12px}.category-copy strong{font-size:.77rem}.category-arrow{right:10px;bottom:20px}.hero-visual{aspect-ratio:auto}.category-item>span{display:block}}

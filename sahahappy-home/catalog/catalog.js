@@ -43,7 +43,7 @@ function galleryPhoto(p,view,ratio){
 }
 function renderDetails(g,id){
   const p=products.get(id);
-  const views=galleryViews(p),initial=p.initialDetailView||0,ratio=p.detailAspectRatio||4/3;
+  const views=galleryViews(p),initial=p.initialDetailView||0,ratio=1;
   content.innerHTML=`<div class="catalog-gallery"><div id="detail-image" class="catalog-gallery-main" style="aspect-ratio:${ratio}">${galleryPhoto(p,views[initial],ratio)}</div>${views.length>1?`<div class="catalog-thumbnails" aria-label="รูปสินค้า">${views.map((view,i)=>`<button class="catalog-thumbnail${p.detailViews?' catalog-thumbnail-labeled':''}" type="button" data-view="${i}" aria-label="ดู${esc(view.label)}" aria-pressed="${i===initial}">${galleryPhoto(p,view,1)}${p.detailViews?`<span class="thumbnail-label">${esc(view.label)}</span>`:''}</button>`).join('')}</div>`:''}<p class="photo-caption">ภาพประกอบจากแคตตาล็อก · สอบถามสีและวัสดุก่อนสั่งซื้อ</p></div>
   <div class="catalog-detail-copy"><p class="catalog-card-category">${esc(data.categories[p.category])}</p><h2 id="product-title">${esc(g.name)}</h2>
   <div id="variant-details" aria-live="polite"><p class="detail-model">${g.productIds.length>1?esc(p.name):''}${/^(YS|SHR)/.test(p.id)?`<span>รหัสสินค้า ${esc(p.id)}</span>`:''}</p><p class="detail-price">${price(p)}</p><p class="detail-price-note">${p.price!==null?(p.priceSource?'ราคาสินค้า · ยืนยันราคากับร้านก่อนสั่งซื้อ':'ราคาตามแคตตาล็อก · ยืนยันราคากับร้านก่อนสั่งซื้อ'):'ติดต่อเราเพื่อขอรายละเอียดและใบเสนอราคา'}</p>
